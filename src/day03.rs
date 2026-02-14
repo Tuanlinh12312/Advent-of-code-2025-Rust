@@ -34,11 +34,11 @@ pub fn p2(input: &Input) -> u64 {
         let mut num = 0u64;
         let mut left = 0;
 
-        for digitsLeft in (0..12).rev() {
+        for digits_left in (0..12).rev() {
             let mut mval = 0;
             let mut mpos = 0;
 
-            for i in (left..n-digitsLeft).rev() {
+            for i in (left..n-digits_left).rev() {
                 if battery[i] >= mval {
                     mval = battery[i];
                     mpos = i;

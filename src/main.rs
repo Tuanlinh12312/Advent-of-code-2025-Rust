@@ -20,7 +20,7 @@ macro_rules! aoc_runner {
     };
 }
 
-aoc_runner!(day01, day02, day03);
+aoc_runner!(day01, day02, day03, day04, day05, day06, day07);
 
 fn main() {
     let solutions = get_solutions();
